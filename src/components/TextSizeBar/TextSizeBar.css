@@ -1,0 +1,23 @@
+@import url('../../index.css');
+
+.TextSizeBar {
+    display: flex;
+    align-items: center;
+
+    & button {
+        @include btn;
+        margin: 0 .25rem;
+        padding: .25em;
+    }
+
+    & span {
+        font-size: 1.5rem;
+        font-weight: 900
+    }
+
+    > .TextSizeBar__Buttons {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+}

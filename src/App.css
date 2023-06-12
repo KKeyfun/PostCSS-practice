@@ -1,0 +1,62 @@
+$nav-item-color: #FFF;
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.Nav {
+  background-color: cornflowerblue;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+.Nav__Header {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 2rem;
+  text-align: center;
+}
+
+.Nav__List {
+  display: flex;
+  gap:1rem;
+
+  margin: 2rem;
+
+  list-style: none;
+}
+
+.Nav__List_right {
+  margin-left: auto;
+}
+
+.Nav__Url {
+  color: $nav-item-color;
+  text-decoration: none;
+}
+
+main {
+  margin:0 auto;
+  width: 90%;
+}
+
+
+@for $size from 4 to 36 by 4 {
+  .TextSize_$size {
+      @if $size < 12 {
+          font-size: 12px;
+      } @else {
+          font-size: $(size)px;
+      }
+  }
+}

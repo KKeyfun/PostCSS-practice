@@ -1,0 +1,5 @@
+export default function Lorem() {
+  return (<>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et varius metus. Aliquam hendrerit consequat mauris eget vestibulum. Morbi sed sollicitudin leo. Fusce id cursus lacus. Vestibulum posuere sagittis dolor eget vestibulum. Maecenas vel bibendum neque. Quisque mollis orci vitae ex fringilla, nec ornare tortor sollicitudin. Nunc ut nulla nec tortor consectetur gravida. Curabitur ultrices, sapien non finibus vestibulum, ligula metus pellentesque diam, sed malesuada urna ipsum id est. Curabitur eget luctus dui. Donec ornare elementum quam, in maximus turpis vestibulum a. Nullam ornare velit elementum nisl accumsan sollicitudin. Integer facilisis eleifend justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vel sem vel massa consectetur sagittis quis vitae sapien. Praesent luctus est ut aliquam accumsan.
+        </>);
+}

@@ -1,0 +1,14 @@
+.Articles {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 20%;
+    grid-auto-rows: 20%;
+
+    gap:1.5rem;
+
+    padding-bottom: 2rem;
+}
+
+.Article {
+    overflow-y:scroll;
+}

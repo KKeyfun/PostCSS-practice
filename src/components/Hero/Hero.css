@@ -1,0 +1,14 @@
+.Hero {
+    display: flex;
+    margin-bottom: 2rem;
+
+    & img {
+        max-width: 50%;
+        object-view-box: inset(30% 10% 30% 10%);
+    }
+
+    & div {
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+}
